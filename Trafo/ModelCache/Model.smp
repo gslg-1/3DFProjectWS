@@ -1,0 +1,12 @@
+With MeshSettings
+     With .ItemMeshSettings ("solid$Clip Links:C61035-A0044-C200_CLAMP_RM14")
+          .SetMeshType "All" 
+          .Set "Transform", "-1", "-2.51398e-10", "6.65162e-14", "-6.61415e-14", "-2.10948e-10", "-1", "2.51397e-10", "-1", "2.10947e-10" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$Clip Rechts:C61035-A0044-C200_CLAMP_RM14")
+          .SetMeshType "All" 
+          .Set "Transform", "-1", "-2.51398e-10", "6.65162e-14", "-6.61415e-14", "-2.10948e-10", "-1", "2.51397e-10", "-1", "2.10947e-10" 
+     End With
+End With

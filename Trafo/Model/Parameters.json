@@ -1,0 +1,80 @@
+{
+    "parameters": [
+        {
+            "expr": "18",
+            "name": "Core_Height",
+            "value": "18"
+        },
+        {
+            "expr": "8",
+            "name": "Core_RadiusMin",
+            "value": "8"
+        },
+        {
+            "expr": "0.1",
+            "name": "Coil1_ThicknessCore",
+            "value": "0.1"
+        },
+        {
+            "expr": "0.05",
+            "name": "Coil1_ThicknessIso",
+            "value": "0.05"
+        },
+        {
+            "expr": "0.05",
+            "name": "Coil1_ThicknessAir",
+            "value": "0.05"
+        },
+        {
+            "expr": "0.1",
+            "name": "Coil2_ThicknessCore",
+            "value": "0.1"
+        },
+        {
+            "expr": "0.05",
+            "name": "Coil2_ThicknessIso",
+            "value": "0.05"
+        },
+        {
+            "expr": "0.05",
+            "name": "Coil2_ThicknessAir",
+            "value": "0.05"
+        },
+        {
+            "expr": "10",
+            "name": "N1",
+            "value": "10"
+        },
+        {
+            "expr": "500",
+            "name": "N2",
+            "value": "500"
+        },
+        {
+            "expr": "(Core_RadiusMin + N1*(Coil1_ThicknessCore+Coil1_ThicknessIso+Coil1_ThicknessAir) +Coil2_Space2Coil1 + Coil2_Diameter/2)",
+            "name": "Coil2_RadiusMin",
+            "value": "10.2"
+        },
+        {
+            "expr": "0.1",
+            "name": "Coil2_Space2Coil1",
+            "value": "0.1"
+        },
+        {
+            "expr": "Coil2_ThicknessCore+Coil2_ThicknessIso+Coil2_ThicknessAir",
+            "name": "Coil2_Diameter",
+            "value": "0.2"
+        },
+        {
+            "expr": "Core_Height",
+            "name": "Coil2_PackageHeight",
+            "value": "18"
+        },
+        {
+            "expr": "(Coil2_PackageHeight - Coil2_Diameter)/Coil2_Diameter",
+            "name": "Coil2_NPerLayer",
+            "value": "89"
+        }
+    ],
+    "version": 1
+}

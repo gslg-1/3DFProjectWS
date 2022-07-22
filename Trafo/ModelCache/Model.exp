@@ -1,0 +1,19 @@
+@CACHEFILEVERSION 2
+@DOUBLE
+1#/17#
+5.88235294117647E-02
+2#*pi*N1
+62.8318530717959
+Coil1_ThicknessAir
+0.05
+Coil1_ThicknessCore
+0.1
+Coil1_ThicknessCore+Coil1_ThicknessIso
+0.15
+Coil1_ThicknessIso
+0.05
+Core_Height
+18
+Core_RadiusMin
+8
+@LONG
